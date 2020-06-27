@@ -1,4 +1,4 @@
-programfile= open("/program.py",'r')
+programfile= open("/mlops/program.py",'r')
 code = programfile.read()
 
 if 'keras' or 'tensorflow' in code:
