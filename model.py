@@ -51,7 +51,7 @@ print('Test accuracy:',scores[1])
 accuracy = scores[1]
 
 
-f = open("accuracy.txt","w+")
+f= open("accuracy.txt","w+")
 f.write(str(accuracy))
 f.close()
 print("ACCURACY IS :",accuracy, "%")
