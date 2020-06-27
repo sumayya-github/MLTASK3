@@ -34,7 +34,7 @@ batch_size = 128
 while int(accuracy)<90:
    if flag == 1:
      model = keras.backend.clear_session()
-     neurons = neurons+1
+     neurons = neurons+10
      epochs = epochs+1
      test = test+1
      kernel = kernel+1
