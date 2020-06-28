@@ -25,7 +25,6 @@ filter = 3
 
 model.add(Conv2D(kernel,(filter,filter), input_shape= (28,28,1), activation= 'relu')
           
-model.add(MaxPooling2D(pool_size=(2,2)))
           
 model.add(Flatten())
 model.add(Dense(10, activation = 'relu'))
