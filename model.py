@@ -8,7 +8,7 @@ from keras.datasets import mnist
 from keras.utils import np_utils as npu
 from keras.backend import clear_session
 
-(x_train,y_train,(x_test,y_test) = mnist.load_data()
+(x_train,y_train),(x_test,y_test) = mnist.load_data()
 x_train.shape
 img=x_train[0].shape
 print("Size of image:",img)
