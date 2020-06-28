@@ -5,7 +5,6 @@ from keras.models import Sequential
 form keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import Conv2D, MaxPooling2D, ZeroPadding2D
 from keras.layers.normalization import BatchNormalization
-from keras.regularizers import 12
 from keras.datasets import mnist
 from keras.utils import np_utils as npu
 from keras.backend import clear_session
