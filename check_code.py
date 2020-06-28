@@ -1,4 +1,4 @@
-programfile= open("/root/t3/model.py",'r')
+programfile= open("/t3/model.py",'r')
 code = programfile.read()
 
 if 'keras' or 'tensorflow' in code:
