@@ -1,7 +1,7 @@
 import keras
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
-form keras.layers import Dense, Dropout, Activation, Flatten
+from keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import Conv2D, MaxPooling2D, ZeroPadding2D
 from keras.layers.normalization import BatchNormalization
 from keras.regularizers import 12
